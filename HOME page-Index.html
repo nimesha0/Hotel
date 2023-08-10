@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Royal Hotel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link rel="stylesheet" type="text/css" href="stylesheet1home.css">
+    </head>
+    <body>
+        
+            <div id="header">
+                <div id="img1">
+                    <img src="images.png" alt="logo" width="190px"  style="border-radius: 75%;" >
+                </div>
+                
+                <h1>R O Y A L   &nbsp; H O T E L</h1>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="HOME page-index.html">HOME</a></li>
+                    <li><a href="FACILITIES page-facility.html">FACILITIES</a></li>
+                    <li><a href="OFFERS page-offers.html">OFFERS</a></li>
+                    <li><a href="CONTACT page-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+                
+                    <img class="mySlides" src="p7.jpg" style="width:100%;height: 700px;display: block;">
+                  
+                    <img class="mySlides" src="p6.jpg" style="width:100%;height: 700px;display: block;">
+                    
+                    <img class="mySlides" src="p5.jpg" style="width:100%;height: 700px;display: block;">
+               
+                  
+                    
+            <div id="hdiv" style="font-family: cursive;">
+                A T &nbsp;  R O Y A L   &nbsp;  H O T E L,<br>L O N D O N
+            </div>
+
+            
+
+            <div id="line">
+            <hr style="width: 30%;margin-top: 70px ;">
+                <h3 style="padding-top: 5px;font-size: 50px;">W E L C O M E&nbsp; &nbsp;   T O &nbsp; &nbsp;  R O Y A L' S</h3>
+                <hr style="width: 30%;margin-bottom: 70px;">
+            </div>
+
+                <div id="con">
+                <p >A 4-star, family-run hotel located in Ballybofey on the scenic backdrop of the River Finn & Drumboe Woods.  Relax in our stunning gardens, wine & dine in<br> the atmospheric Fara's Bar or soak up the hospitality in our traditional Irish bar, the Thirsty Trout. <br><br>  A Gallen Hospitality Hotel, we have been owned by the <br>Gallen
+                     Family since the beginning of 2017.  In that time the hotel has undergone an extensive refurbishment programme.  The Gallen Hospitality Group<br> also includes the neighbouring Villa Rose Hotel & Spa and An Chuirt Hotel, Gweedore, County Donegal. <br> 
+                <br><br>    Find out more about the Gallen Hospitality group here.<br><Br>--------<br>
+                    We offer a mix of 100 traditional and executive bedrooms and Leisure Centre with 22 metre heated indoor swimming pool & gym.  <br>
+
+                </p>
+            </div>
+            <div id="footer">
+                &copy 2023 Royal Hotel.<br>All Rights Reserved.<br> Privacy policy<br><br> Web Design & Development by HELJER<br>
+                <a href="#"><img src="facebook.jpeg" width="30px" height="30px" style="padding-top: 15px;border-radius: 30%;" ></a>&nbsp;
+                <a href="#"><img src="download (1).jpeg" width="30px" height="30px;"style="border-radius:20%"></a>&nbsp;
+                <a href="#"><img src="social-media-twitter-logo-blue-isolated-free-vector.jpg" width="30px" height="30px"></a>
+            </div>
+        
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
+
+    </body>
+</html>

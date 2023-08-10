@@ -1,0 +1,132 @@
+.main{
+  background-image: url("nime.jpg");
+  
+  background-repeat: no-repeat;
+ 
+  
+  background-size: cover;
+  background-position: bottom;
+  
+  
+}
+
+#img1{
+    padding-left: 640px;
+    padding-top:5px;  
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+   color:rgb(171, 135, 44) ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+#navigation{
+    float: left;
+    width: 100%;
+ background-color:rgb(62, 80, 89);
+   
+  
+ 
+}
+#navigation ul li{
+    display:inline;
+}
+#navigation li a{
+    float: left;
+   padding: 12px;
+    text-decoration: none;
+    border-right:black;
+    font-size: 20px;
+    color:rgb(171, 135, 44) ;
+   font-weight: bolder;
+   font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding-left:200px;
+   margin-bottom: 10px;
+          
+}
+#navigation li a:hover{
+    background-color: rgb(62, 80, 89);
+    color:rgb(198, 160, 65) ;
+    font-size: 30px;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+   
+  }
+  
+  .slide-card {
+    background-color: #cea866;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 500px;
+    opacity: 0.77;
+    
+  }
+  
+  .slide-card:hover {
+    transform: translateY(-50px);
+  }
+
+  .slide-card img {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    opacity: 1;
+  }
+  
+  .slide-card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .slide-card p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+#footer{
+  clear: left;
+  color: rgb(171, 135, 44);
+  background-color: rgb(62, 80, 89);
+  height: 320px;
+  text-align:center;
+  padding-top: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  
+}
+
+.row{
+  margin-left: 80px;
+
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.column{
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+}

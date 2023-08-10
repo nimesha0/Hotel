@@ -1,0 +1,111 @@
+
+#img1{
+    padding-left: 640px;
+    padding-top:5px;  
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+   color:rgb(171, 135, 44) ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+#navigation{
+    float: left;
+    width: 100%;
+ background-color:rgb(62, 80, 89);
+   
+  
+ 
+}
+#navigation ul li{
+    display:inline;
+}
+#navigation li a{
+    float: left;
+   padding: 12px;
+    text-decoration: none;
+    border-right:black;
+    font-size: 20px;
+    color:rgb(171, 135, 44) ;
+   font-weight: bolder;
+   font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding-left:200px;
+   margin-bottom: 10px;
+          
+}
+#navigation li a:hover{
+    background-color: rgb(62, 80, 89);
+    color:rgb(198, 160, 65) ;
+    font-size: 30px;
+}
+#mySlides {
+    display:none;
+    
+    
+}
+
+
+
+#hdiv{
+    text-align: center;
+    font-weight: bold ;
+  font-size:45px ;
+  color:  rgb(211, 183, 111);
+    width:900px ;
+    background-color: rgb(62, 80, 89);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 50px;
+   border-radius: 100%;
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+
+}
+
+h3{
+   
+    padding-top: 30px;
+    text-align: center;
+   color:rgb(171, 135, 44) ;
+    font-size:55px ;
+}
+
+p{
+font-family:cursive;
+text-align: center;
+}
+#con{
+    background-image: url("https://media.istockphoto.com/id/535005347/vector/gentle-peach-background.jpg?s=612x612&w=0&k=20&c=9tF_nyvnKx0Wn4uO44_R9pnC6EiKTNgy81XPWbldp-A=");
+   
+    height: 400px;
+    width: 100%;
+    padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   letter-spacing: 0.5px;
+    color: solid black;
+    opacity: 0.9;
+    font-weight:500;
+    line-height: 30px;
+}
+
+
+#footer{
+    clear: left;
+    color: rgb(171, 135, 44);
+    background-color: rgb(62, 80, 89);
+    height: 320px;
+    text-align:center;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    
+  }
